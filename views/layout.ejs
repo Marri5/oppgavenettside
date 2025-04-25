@@ -3,8 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %> - oppgaver.ikt-fag.no</title>
+    <title><%= title %> - oppgaver.snowcrash.ikt-fag.no</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: var(--primary-color);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown-btn {
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,6 +48,26 @@
             <ul>
                 <li><a href="/">Hjem</a></li>
                 <li><a href="/oppgaver">Oppgaver</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Andre oppgavenettsteder &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="http://oppgaver.hal9000.ikt-fag.no" target="_blank">hal9000</a>
+                        <a href="http://oppgaver.skynet.ikt-fag.no" target="_blank">skynet</a>
+                        <a href="http://oppgaver.snowcrash.ikt-fag.no" target="_blank">snowcrash</a>
+                        <a href="http://oppgaver.wintermute.ikt-fag.no" target="_blank">wintermute</a>
+                        <a href="http://oppgaver.computer.ikt-fag.no" target="_blank">computer</a>
+                        <a href="http://oppgaver.viki.ikt-fag.no" target="_blank">viki</a>
+                        <a href="http://oppgaver.proteus4.ikt-fag.no" target="_blank">proteus4</a>
+                        <a href="http://oppgaver.Ed209.ikt-fag.no" target="_blank">Ed209</a>
+                        <a href="http://oppgaver.mcp.ikt-fag.no" target="_blank">mcp</a>
+                        <a href="http://oppgaver.gerty.ikt-fag.no" target="_blank">gerty</a>
+                        <a href="http://oppgaver.redqueen.ikt-fag.no" target="_blank">redqueen</a>
+                        <a href="http://oppgaver.mother.ikt-fag.no" target="_blank">mother</a>
+                        <a href="http://oppgaver.terminator.ikt-fag.no" target="_blank">terminator</a>
+                        <a href="http://oppgaver.megatron.ikt-fag.no" target="_blank">megatron</a>
+                        <a href="http://oppgaver.borg.ikt-fag.no" target="_blank">borg</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
