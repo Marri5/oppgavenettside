@@ -1,0 +1,170 @@
+<div class="container">
+    <% if (oppgaveId === '1') { %>
+        <h1>Oppgave 1: Stein, Saks, Papir Spill</h1>
+        <span class="vanskelighetsgrad lett">Lett</span>
+        
+        <section class="oppgave-info">
+            <h2>Hensikt</h2>
+            <p>Denne oppgaven skal gi deg erfaring med grunnleggende webutvikling og interaktive nettsider ved å lage et klassisk spill.</p>
+            
+            <h2>Læringsmål</h2>
+            <ul>
+                <li>Bruke HTML for å strukturere en nettside</li>
+                <li>Bruke CSS for å style en nettside</li>
+                <li>Bruke JavaScript for å lage interaktivitet</li>
+                <li>Håndtere brukerinput og hendelser</li>
+                <li>Implementere enkel spillogikk</li>
+            </ul>
+            
+            <h2>Oppgavetekst</h2>
+            <p>Lag et Stein, Saks, Papir spill ved bruk av JavaScript, HTML og CSS:</p>
+            <ul>
+                <li>Brukeren skal kunne velge mellom stein, saks eller papir</li>
+                <li>Datamaskinen skal velge tilfeldig</li>
+                <li>Spillet skal vise resultatet (vinner, taper, uavgjort)</li>
+                <li>Hold oversikt over poengsum</li>
+                <li>Legg til en "Reset" knapp for å starte spillet på nytt</li>
+                <li>Gi umiddelbar visuell feedback på brukerens valg</li>
+                <li>Gir spillet en tiltalende og brukervennlig design</li>
+            </ul>
+            
+            <h2>Vurderingskriterier</h2>
+            <div class="vurdering">
+                <h3>Bestått (5 poeng)</h3>
+                <ul>
+                    <li>Fungerende Stein, Saks, Papir spill med grunnleggende funksjonalitet</li>
+                    <li>Korrekt spillogikk (stein slår saks, saks slår papir, papir slår stein)</li>
+                    <li>Grunnleggende visuell design</li>
+                </ul>
+                
+                <h3>Godt (8 poeng)</h3>
+                <ul>
+                    <li>Alt i "Bestått" er oppfylt</li>
+                    <li>Poengsum som oppdateres</li>
+                    <li>Tiltalende design og animasjoner</li>
+                    <li>Responsivt design som fungerer på ulike enheter</li>
+                    <li>God kodestruktur og kommentert kode</li>
+                </ul>
+                
+                <h3>Utmerket (10 poeng)</h3>
+                <ul>
+                    <li>Alt i "Godt" er oppfylt</li>
+                    <li>Avanserte animasjoner eller overganger</li>
+                    <li>Lagring av poengsum i localStorage</li>
+                    <li>Lydeffekter</li>
+                    <li>Ekstra funksjoner som historikk over spill eller statistikk</li>
+                </ul>
+            </div>
+        </section>
+    <% } else if (oppgaveId === '2') { %>
+        <h1>Oppgave 2: Blogg-system med Innlogging</h1>
+        <span class="vanskelighetsgrad middels">Middels</span>
+        
+        <section class="oppgave-info">
+            <h2>Hensikt</h2>
+            <p>Denne oppgaven skal gi deg erfaring med å utvikle et fullstack blogg-system med brukerautentisering og databaseintegrasjon.</p>
+            
+            <h2>Læringsmål</h2>
+            <ul>
+                <li>Implementere brukerautentisering og autorisasjon</li>
+                <li>Jobbe med MongoDB databaseintegrasjon</li>
+                <li>Utvikle CRUD-funksjonalitet for blogginnlegg</li>
+                <li>Bygge en frontend for blogg-system</li>
+                <li>Håndtere bildeopplasting og lagring</li>
+            </ul>
+            
+            <h2>Oppgavetekst</h2>
+            <p>Lag et blogg-system der brukere må logge inn for å legge ut innlegg:</p>
+            <ul>
+                <li>Implementer registrering og innlogging av brukere med sikker passordlagring</li>
+                <li>Lag funksjonalitet for å opprette, redigere, vise og slette blogginnlegg</li>
+                <li>Lag en offentlig forside som viser alle blogginnlegg</li>
+                <li>Sørg for en sikker og brukervennlig opplevelse</li>
+            </ul>
+            
+            <h2>Vurderingskriterier</h2>
+            <div class="vurdering">
+                <h3>Bestått (5 poeng)</h3>
+                <ul>
+                    <li>Fungerende blogg-system med brukerregistrering og innlogging</li>
+                    <li>Grunnleggende CRUD-funksjonalitet for blogginnlegg</li>
+                    <li>MongoDB-integrasjon for datalagring</li>
+                </ul>
+                
+                <h3>Godt (8 poeng)</h3>
+                <ul>
+                    <li>Alt i "Bestått" er oppfylt</li>
+                    <li>Kommentarsystem</li>
+                    <li>Responsivt design</li>
+                    <li>Sikker implementasjon av brukerautentisering</li>
+                </ul>
+                
+                <h3>Utmerket (10 poeng)</h3>
+                <ul>
+                    <li>Alt i "Godt" er oppfylt</li>
+                    <li>Kategorier og taggsystem for innlegg</li>
+                    <li>Søkefunksjonalitet</li>
+                </ul>
+            </div>
+        </section>
+    <% } else if (oppgaveId === '3') { %>
+        <h1>Oppgave 3: Guide-CMS med Videoupplasting</h1>
+        <span class="vanskelighetsgrad vanskelig">Vanskelig</span>
+        
+        <section class="oppgave-info">
+            <h2>Hensikt</h2>
+            <p>Denne oppgaven skal gi deg erfaring med å utvikle et CMS-system med multimedia-funksjonalitet.</p>
+            
+            <h2>Læringsmål</h2>
+            <ul>
+                <li>Utvikle et tilpasset CMS-system med rollebasert tilgang</li>
+                <li>Håndtere opplasting og behandling av videofiler</li>
+                <li>Implementere avansert databasemodell for strukturert innhold</li>
+                <li>Bygge en brukervennlig admin-grensesnitt for innholdshåndtering</li>
+                <li>Utføre sikker filhåndtering og dataprosessering</li>
+            </ul>
+            
+            <h2>Oppgavetekst</h2>
+            <p>Lag en nettside der en bestemt bruker kan laste opp guider der brukeren kan fylle inn tittel, beskrivelse og legge til videoer til guiden via opplasting:</p>
+            <ul>
+                <li>Implementer administrator-bruker som kan laste opp og administrere guider</li>
+                <li>Lag et admin-panel for å opprette, redigere og slette guider</li>
+                <li>Støtt videoupplasting og embedding (med fallback til Youtube/Vimeo-linking)</li>
+                <li>Kategoriser guider i emner og vanskelighetsgrader</li>
+                <li>Lag en offentlig forside som viser alle tilgjengelige guider</li>
+                <li>Implementer søk- og filtreringsfunksjonalitet</li>
+                <li>Legg til brukeranmeldelser og vurderinger for hver guide</li>
+                <li>Implementer lagring av progresjonen til brukere som følger guidene</li>
+            </ul>
+            
+            <h2>Vurderingskriterier</h2>
+            <div class="vurdering">
+                <h3>Bestått (5 poeng)</h3>
+                <ul>
+                    <li>Fungerende admin-panel for opplasting og redigering av guider</li>
+                    <li>Støtte for tittel, beskrivelse og minst én form for videointegrering</li>
+                    <li>Grunnleggende frontend for visning av guider</li>
+                </ul>
+                
+                <h3>Godt (8 poeng)</h3>
+                <ul>
+                    <li>Alt i "Bestått" er oppfylt</li>
+                    <li>Direkte videoupplasting med server-side prosessering</li>
+                    <li>Kategori- og tagg-system</li>
+                    <li>Søke- og filtreringsfunksjonalitet</li>
+                    <li>Responsivt design og brukervennlig grensesnitt</li>
+                </ul>
+                
+                <h3>Utmerket (10 poeng)</h3>
+                <ul>
+                    <li>Alt i "Godt" er oppfylt</li>
+                    <li>Avansert videohåndtering med transcoding eller adaptive bitrates</li>
+                    <li>Brukeranmeldelser og vurderingssystem</li>
+                    <li>System for å spore brukerprogresjonen gjennom guider</li>
+                    <li>Avansert admin-dashboard med statistikk og analyse</li>
+                    <li>Sikkerhetstiltak for å forhindre misbruk og uautorisert tilgang</li>
+                </ul>
+            </div>
+        </section>
+    <% } %>
+</div> 
